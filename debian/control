@@ -1,0 +1,12 @@
+Source: ros-crystal-rqt-py-console
+Section: misc
+Priority: extra
+Maintainer: Dorian Scholz <scholz@sim.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-crystal-ament-cmake, ros-crystal-ros-workspace
+Homepage: http://wiki.ros.org/rqt_py_console
+Standards-Version: 3.9.2
+
+Package: ros-crystal-rqt-py-console
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-crystal-ament-index-python, ros-crystal-python-qt-binding (>= 0.2.19), ros-crystal-qt-gui, ros-crystal-qt-gui-py-common, ros-crystal-rclpy, ros-crystal-rqt-gui, ros-crystal-rqt-gui-py, ros-crystal-ros-workspace
+Description: rqt_py_console is a Python GUI plugin providing an interactive Python console.
