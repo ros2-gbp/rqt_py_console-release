@@ -6,10 +6,6 @@ Changelog for package rqt_py_console
 ------------------
 * spyderlib -> spyder (`#5 <https://github.com/ros-visualization/rqt_py_console/issues/5>`_)
 * ros2 port (`#3 <https://github.com/ros-visualization/rqt_py_console/issues/3>`_)
-  * ros2 port
-  * adding ament_index_python to package.xml
-  * minor pr change
-  * alphabetical order
 * autopep8 (`#2 <https://github.com/ros-visualization/rqt_py_console/issues/2>`_)
 * Contributors: Mike Lautman
 
