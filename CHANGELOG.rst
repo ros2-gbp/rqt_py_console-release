@@ -2,6 +2,11 @@
 Changelog for package rqt_py_console
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.1 (2021-04-27)
+------------------
+* Changed the build type to ament_python and fixed package to run with ros2 run (`#8 <https://github.com/ros-visualization/rqt_py_console/issues/8>`_)
+* Contributors: Alejandro Hernández Cordero
+
 1.0.0 (2018-12-11)
 ------------------
 * spyderlib -> spyder (`#5 <https://github.com/ros-visualization/rqt_py_console/issues/5>`_)
