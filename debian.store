@@ -1,1 +1,1 @@
-{"base": "0b02b5d", "parent": "debian/rolling/rqt_py_console", "previous": "f627ba0", "trim": "", "trimbase": ""}
+{"base": "2ca073b", "parent": "debian/humble/rqt_py_console", "previous": "13b0c24", "trim": "", "trimbase": ""}
