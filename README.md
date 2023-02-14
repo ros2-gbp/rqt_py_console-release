@@ -1,3 +1,26 @@
+## rqt_py_console (rolling) - 1.1.1-1
+
+The packages in the `rqt_py_console` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling rqt_py_console` on `Tue, 14 Feb 2023 16:15:47 -0000`
+
+The `rqt_py_console` package was released.
+
+Version of package(s) in repository `rqt_py_console`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_py_console.git
+- release repository: https://github.com/ros2-gbp/rqt_py_console-release.git
+- rosdistro version: `1.1.0-1`
+- old version: `1.1.0-1`
+- new version: `1.1.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## rqt_py_console (rolling) - 1.1.0-1
 
 The packages in the `rqt_py_console` repository were released into the `rolling` distro by running `/usr/local/bin/bloom-release --non-interactive -r rolling rqt_py_console` on `Wed, 11 May 2022 00:39:07 -0000`
