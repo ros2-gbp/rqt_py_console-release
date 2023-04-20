@@ -1,0 +1,12 @@
+Source: ros-iron-rqt-py-console
+Section: misc
+Priority: optional
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/rqt_py_console
+Standards-Version: 3.9.2
+
+Package: ros-iron-rqt-py-console
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-iron-ament-index-python, ros-iron-python-qt-binding (>= 0.2.19), ros-iron-qt-gui, ros-iron-qt-gui-py-common, ros-iron-rclpy, ros-iron-rqt-gui, ros-iron-rqt-gui-py, ros-iron-ros-workspace
+Description: rqt_py_console is a Python GUI plugin providing an interactive Python console.
