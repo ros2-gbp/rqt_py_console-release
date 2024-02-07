@@ -4,7 +4,7 @@ package_name = 'rqt_py_console'
 
 setup(
     name=package_name,
-    version='1.2.1',
+    version='1.2.2',
     packages=[package_name],
     package_dir={'': 'src'},
     data_files=[
@@ -31,6 +31,7 @@ setup(
         'rqt_py_console is a Python GUI plugin providing an interactive Python console.'
     ),
     license='BSD',
+    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'rqt_py_console = ' + package_name + '.main:main',
