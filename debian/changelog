@@ -1,0 +1,303 @@
+ros-rolling-rqt-py-console (1.2.2-2noble) noble; urgency=high
+
+  * Add in test dependency on pytest. (#16 <https://github.com/ros-visualization/rqt_py_console/issues/16>)
+  * Contributors: Chris Lalancette
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 07 Feb 2024 00:00:00 -0000
+
+ros-rolling-rqt-py-console (1.2.1-2noble) noble; urgency=high
+
+  * Fix a crash in the rqt_py_console dialog box. (#15 <https://github.com/ros-visualization/rqt_py_console/issues/15>)
+  * Contributors: Chris Lalancette
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 07 Sep 2023 00:00:00 -0000
+
+ros-rolling-rqt-py-console (1.2.0-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 28 Apr 2023 00:00:00 -0000
+
+ros-rolling-rqt-py-console (1.1.1-2noble) noble; urgency=high
+
+  * [rolling] Update maintainers - 2022-11-07 (#13 <https://github.com/ros-visualization/rqt_py_console/issues/13>)
+  * Contributors: Audrow Nash, Jacob Perron
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 14 Feb 2023 00:00:00 -0000
+
+ros-rolling-rqt-py-console (1.1.0-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 10 May 2022 00:00:00 -0000
+
+ros-rolling-rqt-py-console (1.0.2-2noble) noble; urgency=high
+
+  * Fix modern setuptools warning about dashes instead of underscores (#11 <https://github.com/ros-visualization/rqt_py_console/issues/11>)
+  * Contributors: Chris Lalancette
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 31 Aug 2021 00:00:00 -0000
+
+ros-rolling-rqt-py-console (1.0.1-2noble) noble; urgency=high
+
+  * Changed the build type to ament_python and fixed package to run with ros2 run (#8 <https://github.com/ros-visualization/rqt_py_console/issues/8>)
+  * Contributors: Alejandro Hernández Cordero
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 27 Apr 2021 00:00:00 -0000
+
+ros-rolling-rqt-py-console (1.0.0-2noble) noble; urgency=high
+
+  * spyderlib -> spyder (#5 <https://github.com/ros-visualization/rqt_py_console/issues/5>)
+  * ros2 port (#3 <https://github.com/ros-visualization/rqt_py_console/issues/3>)
+  * autopep8 (#2 <https://github.com/ros-visualization/rqt_py_console/issues/2>)
+  * Contributors: Mike Lautman
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 11 Dec 2018 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.4.8-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 28 Apr 2017 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.4.7-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 02 Mar 2017 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.4.6-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 27 Feb 2017 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.4.5-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 03 Feb 2017 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.4.4-2noble) noble; urgency=high
+
+  * use Python 3 compatible syntax (#421 <https://github.com/ros-visualization/rqt_common_plugins/pull/421>)
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 24 Jan 2017 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.4.3-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 02 Nov 2016 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.4.2-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 19 Sep 2016 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.4.1-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 16 May 2016 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.4.0-2noble) noble; urgency=high
+
+  * Support Qt 5 (in Kinetic and higher) as well as Qt 4 (in Jade and earlier) (#359 <https://github.com/ros-visualization/rqt_common_plugins/pull/359>)
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 27 Apr 2016 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.3.13-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 08 Mar 2016 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.3.12-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 24 Jul 2015 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.3.11-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 30 Apr 2015 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.3.10-2noble) noble; urgency=high
+
+  * update plugin scripts to use full name to avoid future naming collisions
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 01 Oct 2014 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.3.9-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 18 Aug 2014 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.3.8-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 15 Jul 2014 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.3.7-2noble) noble; urgency=high
+
+  * export architecture_independent flag in package.xml (#254 <https://github.com/ros-visualization/rqt_common_plugins/issues/254>)
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 11 Jul 2014 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.3.6-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 02 Jun 2014 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.3.5-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 07 May 2014 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.3.4-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 28 Jan 2014 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.3.3-2noble) noble; urgency=high
+
+  * add groups for rqt plugins, renamed some plugins (#167 <https://github.com/ros-visualization/rqt_common_plugins/issues/167>)
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 08 Jan 2014 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.3.2-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 14 Oct 2013 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.3.1-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 09 Oct 2013 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.3.0-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 28 Aug 2013 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.2.17-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 04 Jul 2013 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.2.16-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 09 Apr 2013 13:33:00 -0000
+
+ros-rolling-rqt-py-console (0.2.15-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 09 Apr 2013 00:02:00 -0000
+
+ros-rolling-rqt-py-console (0.2.14-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 14 Mar 2013 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.2.13-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 11 Mar 2013 22:14:00 -0000
+
+ros-rolling-rqt-py-console (0.2.12-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 11 Mar 2013 13:56:00 -0000
+
+ros-rolling-rqt-py-console (0.2.11-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 08 Mar 2013 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.2.10-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 22 Jan 2013 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.2.9-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 17 Jan 2013 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.2.8-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 11 Jan 2013 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.2.7-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 24 Dec 2012 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.2.6-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Sun, 23 Dec 2012 00:00:00 -0000
+
+ros-rolling-rqt-py-console (0.2.5-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 21 Dec 2012 19:11:00 -0000
+
+ros-rolling-rqt-py-console (0.2.4-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 21 Dec 2012 01:13:00 -0000
+
+ros-rolling-rqt-py-console (0.2.3-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 21 Dec 2012 00:24:00 -0000
+
+ros-rolling-rqt-py-console (0.2.2-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 20 Dec 2012 18:29:00 -0000
+
+ros-rolling-rqt-py-console (0.2.1-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 20 Dec 2012 17:47:00 -0000
+
+ros-rolling-rqt-py-console (0.2.0-2noble) noble; urgency=high
+
+  * first release of this package into groovy
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 20 Dec 2012 17:39:00 -0000
+
+
