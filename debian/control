@@ -1,0 +1,12 @@
+Source: ros-jazzy-rqt-py-console
+Section: misc
+Priority: optional
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-jazzy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/rqt_py_console
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rqt-py-console
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-ament-index, python3-python-qt-binding (>= 0.2.19), ros-jazzy-qt-gui, ros-jazzy-qt-gui-py-common, ros-jazzy-rclpy, ros-jazzy-rqt-gui, ros-jazzy-rqt-gui-py, ros-jazzy-ros-workspace
+Description: rqt_py_console is a Python GUI plugin providing an interactive Python console.
