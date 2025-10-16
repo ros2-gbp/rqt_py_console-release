@@ -2,19 +2,11 @@
 Changelog for package rqt_py_console
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.4.1 (2025-10-16)
+1.2.3 (2025-10-16)
 ------------------
-* fix setuptools deprecations (backport `#21 <https://github.com/ros-visualization/rqt_py_console/issues/21>`_) (`#22 <https://github.com/ros-visualization/rqt_py_console/issues/22>`_)
+* fix setuptools deprecations (backport `#21 <https://github.com/ros-visualization/rqt_py_console/issues/21>`_) (`#23 <https://github.com/ros-visualization/rqt_py_console/issues/23>`_)
+* Remove CODEOWNERS (backport `#17 <https://github.com/ros-visualization/rqt_py_console/issues/17>`_) (`#18 <https://github.com/ros-visualization/rqt_py_console/issues/18>`_)
 * Contributors: mergify[bot]
-
-1.4.0 (2025-02-02)
-------------------
-* Add the standard tests to rqt_py_console. (`#19 <https://github.com/ros-visualization/rqt_py_console/issues/19>`_)
-* Remove CODEOWNERS (`#17 <https://github.com/ros-visualization/rqt_py_console/issues/17>`_)
-* Contributors: Alejandro Hernández Cordero, Chris Lalancette
-
-1.3.0 (2024-04-26)
-------------------
 
 1.2.2 (2024-02-07)
 ------------------
