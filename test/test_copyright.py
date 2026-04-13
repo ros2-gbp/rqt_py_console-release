@@ -1,4 +1,4 @@
-# Copyright (c) 2012, Dorian Scholz
+# Copyright (c) 2024, Open Source Robotics Foundation, Inc.
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -11,7 +11,7 @@
 #     copyright notice, this list of conditions and the following
 #     disclaimer in the documentation and/or other materials provided
 #     with the distribution.
-#   * Neither the name of the Willow Garage, Inc. nor the names of its
+#   * Neither the name of the copyright holder nor the names of its
 #     contributors may be used to endorse or promote products derived
 #     from this software without specific prior written permission.
 #
@@ -28,41 +28,11 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-from code import InteractiveInterpreter
-import sys
-
-from python_qt_binding import QT_BINDING, QT_BINDING_VERSION
-from python_qt_binding.QtCore import Signal
-from python_qt_binding.QtGui import QColorConstants
-
-from qt_gui_py_common.console_text_edit import ConsoleTextEdit
+from ament_copyright.main import main
+import pytest
 
 
-class PyConsoleTextEdit(ConsoleTextEdit):
-    _color_stdin = QColorConstants.DarkGreen
-    _multi_line_char = ':'
-    _multi_line_indent = '    '
-    _prompt = ('>>> ', '... ')  # prompt for single and multi line
-    widget_exit = Signal()
-
-    def __init__(self, parent=None):
-        super(PyConsoleTextEdit, self).__init__(parent)
-
-        self._interpreter_locals = {}
-        self._interpreter = InteractiveInterpreter(self._interpreter_locals)
-
-        self._comment_writer.write('Python %s on %s\n' %
-                                   (sys.version.replace('\n', ''), sys.platform))
-        self._comment_writer.write(
-            'Qt bindings: %s version %s\n' % (QT_BINDING, QT_BINDING_VERSION))
-
-        self._add_prompt()
-
-    def update_interpreter_locals(self, newLocals):
-        self._interpreter_locals.update(newLocals)
-
-    def _exec_code(self, code):
-        try:
-            self._interpreter.runsource(code)
-        except SystemExit:  # catch sys.exit() calls, so they don't close the whole gui
-            self.widget_exit.emit()
+@pytest.mark.copyright
+@pytest.mark.linter
+def test_copyright():
+    assert main() == 0, 'Found errors'
